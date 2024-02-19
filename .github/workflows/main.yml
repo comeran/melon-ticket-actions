@@ -12,5 +12,6 @@ jobs:
         with:
           product-id: 209471
           schedule-id: 100002
+          seat-id: 10009
           slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           message: '<@U12345678> gogogo'
